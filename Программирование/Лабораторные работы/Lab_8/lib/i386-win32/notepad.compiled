@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\FPC\3.2.0\bin\i386-Win32\fpc.exe" Date="1355043128"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -WG -l -vewnhibq &quot;-FiC:\Users\Rustam\Desktop\Вуз\Программирование\Лабораторные работы\Lab_8\lib\i386-win32&quot; -FuC:\lazarus\components\printers\lib\i386-win32\win32 -FuC:\lazarus\components\cairocanvas\lib\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 &quot;-FuC:\Users\Rustam\Desktop\Вуз\Программирование\Лабораторные работы\Lab_8\&quot; &quot;-FUC:\Users\Rustam\Desktop\Вуз\Программирование\Лабораторные работы\Lab_8\lib\i386-win32\&quot; &quot;-FEC:\Users\Rustam\Desktop\Вуз\Программирование\Лабораторные работы\Lab_8\&quot; &quot;-oC:\Users\Rustam\Desktop\Вуз\Программирование\Лабораторные работы\Lab_8\notepad.exe&quot; -dLCL -dLCLwin32 notepad.lpr"/>
+</CONFIG>
