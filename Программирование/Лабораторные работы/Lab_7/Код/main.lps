@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Gilbert"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fractal.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="144"/>
+        <CursorPos X="4" Y="20"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\fpc\3.2.0\source\packages\graph\src\inc\graph.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2113"/>
+        <CursorPos X="13" Y="2130"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="main.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fractal.pas"/>
+        <Caret Line="150" Column="19" TopLine="128"/>
+      </Position2>
+      <Position3>
+        <Filename Value="fractal.pas"/>
+        <Caret Line="151" Column="19" TopLine="134"/>
+      </Position3>
+      <Position4>
+        <Filename Value="fractal.pas"/>
+        <Caret Line="20" Column="8" TopLine="49"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fractal.pas"/>
+        <Caret Line="152" Column="15" TopLine="135"/>
+      </Position5>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
