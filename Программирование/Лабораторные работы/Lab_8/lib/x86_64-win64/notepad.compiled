@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="F:\lazarus\fpc\3.2.0\bin\x86_64-win64\fpc.exe" Date="1381338938"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -WG -l -vewnhibq -FiF:\Lab_8\lib\x86_64-win64 -FuF:\lazarus\components\printers\lib\x86_64-win64\win32 -FuF:\lazarus\components\cairocanvas\lib\x86_64-win64\win32 -FuF:\lazarus\lcl\units\x86_64-win64\win32 -FuF:\lazarus\lcl\units\x86_64-win64 -FuF:\lazarus\components\lazutils\lib\x86_64-win64 -FuF:\lazarus\packager\units\x86_64-win64 -FuF:\Lab_8\ -FUF:\Lab_8\lib\x86_64-win64\ -FEF:\Lab_8\ -oF:\Lab_8\notepad.exe -dLCL -dLCLwin32 notepad.lpr"/>
+</CONFIG>
