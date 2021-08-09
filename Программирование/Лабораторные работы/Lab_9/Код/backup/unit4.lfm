@@ -1,0 +1,53 @@
+object Form1: TForm1
+  Left = 727
+  Height = 117
+  Top = 417
+  Width = 363
+  BorderStyle = bsDialog
+  Caption = 'Form1'
+  ClientHeight = 117
+  ClientWidth = 363
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object NumOfStr: TEdit
+    Left = 190
+    Height = 23
+    Top = 10
+    Width = 160
+    MaxLength = 17
+    NumbersOnly = True
+    OnChange = NumOfStrChange
+    TabOrder = 0
+  end
+  object NumOfStrLabel: TLabel
+    Left = 10
+    Height = 20
+    Top = 10
+    Width = 176
+    Caption = 'Кол-во записей в файле: '
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object FileSizeLabel: TLabel
+    Left = 10
+    Height = 20
+    Top = 50
+    Width = 204
+    Caption = 'Примерный размер файла: 0'
+    Font.Height = 20
+    ParentColor = False
+    ParentFont = False
+  end
+  object GenButton1: TButton
+    Left = 0
+    Height = 35
+    Top = 82
+    Width = 363
+    Align = alBottom
+    Caption = 'Генерировать'
+    OnClick = GenButton1Click
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,109 @@
+object SortForm: TSortForm
+  Left = 701
+  Height = 160
+  Top = 611
+  Width = 500
+  BorderStyle = bsDialog
+  Caption = 'Сортировка '
+  ClientHeight = 160
+  ClientWidth = 500
+  Color = clMenuBar
+  Position = poDesktopCenter
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 17
+    Top = 20
+    Width = 94
+    Caption = 'Исходный файл'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 17
+    Top = 70
+    Width = 87
+    Caption = 'Целевой файл'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object InputFileButton: TEditButton
+    Left = 129
+    Height = 23
+    Top = 20
+    Width = 357
+    ButtonWidth = 23
+    MaxLength = 0
+    NumGlyphs = 1
+    OnButtonClick = InputFileButtonButtonClick
+    PasswordChar = #0
+    TabOrder = 0
+  end
+  object OutputFileButton: TEditButton
+    Left = 128
+    Height = 23
+    Top = 70
+    Width = 358
+    ButtonWidth = 23
+    MaxLength = 0
+    NumGlyphs = 1
+    OnButtonClick = OutputFileButtonButtonClick
+    PasswordChar = #0
+    TabOrder = 1
+  end
+  object SortButton: TButton
+    Left = 199
+    Height = 25
+    Top = 120
+    Width = 102
+    Caption = 'Сорировать'
+    OnClick = SortButtonClick
+    TabOrder = 2
+  end
+  object GenButton: TButton
+    Left = 40
+    Height = 25
+    Top = 120
+    Width = 102
+    AutoSize = True
+    Caption = 'Генерировать'
+    OnClick = GenButtonClick
+    TabOrder = 3
+  end
+  object CheckButton: TButton
+    Left = 360
+    Height = 25
+    Top = 120
+    Width = 102
+    Caption = 'Проверить'
+    OnClick = CheckButtonClick
+    TabOrder = 4
+  end
+  object ExampleLabel: TLabel
+    Left = 264
+    Height = 1
+    Top = 3
+    Width = 1
+    ParentColor = False
+    Visible = False
+  end
+  object OpDi1: TOpenDialog
+    Left = 10
+  end
+  object OpDi2: TOpenDialog
+    Left = 50
+  end
+end
