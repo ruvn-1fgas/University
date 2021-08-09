@@ -1,0 +1,42 @@
+object PieceChose: TPieceChose
+  Left = 874
+  Height = 400
+  Top = 119
+  Width = 100
+  BorderStyle = bsNone
+  Caption = 'Выберите фигуру'
+  ClientHeight = 400
+  ClientWidth = 100
+  Color = clWhite
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '2.0.12.0'
+  object Image1: TImage
+    Left = 0
+    Height = 100
+    Top = 0
+    Width = 100
+    OnClick = Image1Click
+  end
+  object Image2: TImage
+    Left = 0
+    Height = 100
+    Top = 100
+    Width = 100
+    OnClick = Image2Click
+  end
+  object Image3: TImage
+    Left = 0
+    Height = 100
+    Top = 200
+    Width = 100
+    OnClick = Image3Click
+  end
+  object Image4: TImage
+    Left = 0
+    Height = 100
+    Top = 300
+    Width = 100
+    OnClick = Image4Click
+  end
+end
